@@ -1,0 +1,34 @@
+<mat-tab-group mat-stretch-tabs class="tabs">
+
+  <mat-tab>
+    <ng-template mat-tab-label class="tab">
+      <mat-icon class="tab-icon">home</mat-icon>
+      Home
+    </ng-template>
+    <app-home></app-home>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label class="tab">
+      <mat-icon class="tab-icon">school</mat-icon><div>School</div>
+    </ng-template>
+    <app-school></app-school>
+  </mat-tab>
+
+  <mat-tab>
+    <ng-template mat-tab-label class="tab">
+      <mat-icon class="tab-icon">description</mat-icon>
+      Resume
+    </ng-template>
+    <app-resume></app-resume>
+  </mat-tab>
+  
+  <mat-tab>
+    <ng-template mat-tab-label class="tab">
+      <mat-icon class="tab-icon">extension</mat-icon>
+      Projects
+    </ng-template>
+    <app-projects></app-projects>
+  </mat-tab>
+
+</mat-tab-group>

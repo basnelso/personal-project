@@ -1,0 +1,12 @@
+.tab-icon {
+    padding: 5px;
+}
+
+.mat-tab-label {
+    background-color: transparent;
+    color: black;
+}
+
+.mat-tab-body {
+    background-color: white;
+}

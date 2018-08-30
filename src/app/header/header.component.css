@@ -1,0 +1,28 @@
+
+.header-container {
+    text-align: center;
+    color: rgba(0, 0, 0, .9)
+}
+.header-icon {
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#title {
+    font-size: 30px;
+}
+
+#linked-in {
+    height: 18px;
+}
+
+#twitter {
+    height: 20px;
+}
+
+#git-hub {
+    height: 19px;
+}
