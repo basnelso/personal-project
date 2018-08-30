@@ -1,6 +1,8 @@
 import { Component, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
 import { PdfService } from '../services/pdf.service';
 import { SimplePdfViewerComponent } from '../../../node_modules/simple-pdf-viewer';
+import printJS from 'print-js';
+
 @Component({
   selector: 'app-resume',
   templateUrl: './resume.component.html',
@@ -11,7 +13,7 @@ export class ResumeComponent implements OnInit {
   @ViewChild(SimplePdfViewerComponent) private pdfViewer: SimplePdfViewerComponent;
   public pdfSrc: string;
   constructor(
-    private pdfService: PdfService
+    private pdfService: PdfService,
   ) { }
 
   ngOnInit() {
@@ -25,4 +27,6 @@ export class ResumeComponent implements OnInit {
     });
   }
 
+  public printPdf() {
+  }
 }

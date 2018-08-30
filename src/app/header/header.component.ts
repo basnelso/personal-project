@@ -12,4 +12,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  public openEmail() {
+    window.location.href = 'mailto:' + 'bs40404@gmail.com';
+  }
+
 }

@@ -1,6 +1,9 @@
+<script src="print.js"></script>
 <div class="resume-container">
+    <a href="../../assets/resume.pdf" class="download-button" download><mat-icon class="icon">save_alt</mat-icon></a>
+    <mat-icon class="icon" (click)="printPdf()">print</mat-icon>
     <section id="viewer">
-      <simple-pdf-viewer #pdfViewer 
+      <simple-pdf-viewer id="pdfResume" #pdfViewer 
         [src]="pdfSrc"
         [removePageBorders]=false>
       </simple-pdf-viewer>
